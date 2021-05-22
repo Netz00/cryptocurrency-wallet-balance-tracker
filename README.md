@@ -13,4 +13,5 @@ INSTRUCTIONS
 7. paste there code and change consts
 8. deploy -> new deployment -> select type = Web App
 9. press deploy
-10. let it runs for few days, after that you will have enought great sample to calculate stats you are interested in
+10. set function initTriggers at Select function to run and press Run
+11. let it runs for few days, after that you will have enought great sample to calculate stats you are interested in
