@@ -1,6 +1,7 @@
 # IdenaWalletBalanaceTracker
 Simple way to track your wallet balance.
 
+https://docs.google.com/spreadsheets/d/1-CHWN_lpJlKQTKm3HGBRV4gitopFQx2H1InrW8sTSLo/edit?usp=sharing
 
 INSTRUCTIONS
 
