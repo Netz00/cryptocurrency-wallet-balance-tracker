@@ -16,3 +16,5 @@ INSTRUCTIONS
 9. press deploy
 10. set function initTriggers at Select function to run and press Run
 11. let it runs for few days, after that you will have enought great sample to calculate stats you are interested in
+
+Donation address: 0x57a074278f87c7367203aed1e12b85efc5e5e811
