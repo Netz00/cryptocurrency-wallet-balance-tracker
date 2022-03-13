@@ -1,7 +1,8 @@
 # IdenaWalletBalanaceTracker
+
 Simple way to track your wallet balance by using Google Sheets - Web app functionality.
 
-https://docs.google.com/spreadsheets/d/1-CHWN_lpJlKQTKm3HGBRV4gitopFQx2H1InrW8sTSLo/edit?usp=sharing
+[Live Preview](https://docs.google.com/spreadsheets/d/1-CHWN_lpJlKQTKm3HGBRV4gitopFQx2H1InrW8sTSLo/edit?usp=sharing)
 
 INSTRUCTIONS
 
@@ -15,14 +16,18 @@ INSTRUCTIONS
 6. Go to Extensions -> Apps Scripts
 7. Overwrite default *Code.gs* with *Code.gs* from repository and change constants
 8. Go to Deploy -> New Deployment -> Select type = Web App
-  - Add Configuration
-    - Any description
-    - Execute As: Me
-    - Who has access: Only myself  
+    - Add Configuration
+        - Any description
+        - Execute As: Me
+        - Who has access: Only myself
 9. Press deploy
 10. Set function initTriggers at Select function to run and press Run
 11. Let it runs for few days, after that you will have enought great sample to calculate stats you are interested in.
-  - Columns: { Timestamp, Balance, Stake, Sum } belong to script and any data added to that rows could be overwritten
-  - For adding more stats just add functions to the free columns, starting from column "E"
+    - Columns: { Timestamp, Balance, Stake, Sum } belong to script and any data added to that rows could be overwritten
+    - For adding more stats just add functions to the free columns, starting from column "E"
+
+---
+
+This trivial example shows a brief look at huge abilities provided by google sheets.
  
 Donation address: 0xD04483D8d9Aa7e83A4C12A30b89be353F30C440E
