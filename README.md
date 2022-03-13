@@ -17,4 +17,4 @@ INSTRUCTIONS
 10. set function initTriggers at Select function to run and press Run
 11. let it runs for few days, after that you will have enought great sample to calculate stats you are interested in
 
-Donation address: 0x57a074278f87c7367203aed1e12b85efc5e5e811
+Donation address: 0xD04483D8d9Aa7e83A4C12A30b89be353F30C440E
