@@ -1,4 +1,12 @@
-# IdenaWalletBalanaceTracker
+# Google sheets fetch and store "cron" job example
+
+This script can be used for any other blockchain, just configure data fetching details(specific for that blockchain) \
+and use it as that Blockchain wallet tracker.
+
+Also it can be used for other Fetch and Store repeating operations, e.g. fetching Binance market trading pairs, \
+or even in combination as fetching blockchain data and market data and doing some type of analysy.
+
+## Blockchain Wallet Balanace Tracker
 
 Simple way to track your wallet balance by using Google Sheets - Web app functionality.
 
