@@ -35,7 +35,3 @@ INSTRUCTIONS
     - For adding more stats just add functions to the free columns, starting from column "E"
 
 ---
-
-This trivial example shows a brief look at huge abilities provided by google sheets.
- 
-Donation address: 0xD04483D8d9Aa7e83A4C12A30b89be353F30C440E
