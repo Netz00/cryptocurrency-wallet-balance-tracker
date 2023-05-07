@@ -1,37 +1,52 @@
-# Google sheets fetch and store "cron" job example
+# Cryptocurrency wallet balance tracker 📈
 
-This script can be used for any other blockchain, just configure data fetching details(specific for that blockchain) \
-and use it as that Blockchain wallet tracker.
 
-Also it can be used for other Fetch and Store repeating operations, e.g. fetching Binance market trading pairs, \
-or even in combination as fetching blockchain data and market data and doing some type of analysy.
+⚠️ Google Account is required.
 
-## Blockchain Wallet Balanace Tracker
+➡️ [Live Preview](https://docs.google.com/spreadsheets/d/1-CHWN_lpJlKQTKm3HGBRV4gitopFQx2H1InrW8sTSLo/edit?usp=sharing)
 
-Simple way to track your wallet balance by using Google Sheets - Web app functionality.
+## About
 
-[Live Preview](https://docs.google.com/spreadsheets/d/1-CHWN_lpJlKQTKm3HGBRV4gitopFQx2H1InrW8sTSLo/edit?usp=sharing)
+- Simple Google Sheet fetch and store "cron" job script
+- Track your wallet balance by using Google Sheets web app functionality
+- This script can be used for any other blockchain, just configure data fetching details (specific for that blockchain) and use it as that blockchain wallet tracker
+- Also, it can be used for other fetch and store repeating operations, e.g., fetching Binance market trading pairs, or even in combination with fetching blockchain data and market data and doing some type of analysis
 
-INSTRUCTIONS
+## Instructions
 
-1. Go to google drive
-2. Make new google sheet (new -> google sheets)
-3. Add as many sheets as wallets you want to track + 1 sheet for Logfile
-4. Call them e.g. "Idena1", "Idena2", ..., and "Log"
-5. Go to Share -> Get link
-    - e.g. https://docs.google.com/spreadsheets/d/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/edit?usp=sharing
-    - save somewhere "XX...XX" from link
-6. Go to Extensions -> Apps Scripts
-7. Overwrite default *Code.gs* with *Code.gs* from repository and change constants
-8. Go to Deploy -> New Deployment -> Select type = Web App
-    - Add Configuration
-        - Any description
-        - Execute As: Me
-        - Who has access: Only myself
-9. Press deploy
-10. Set function initTriggers at Select function to run and press Run
-11. Let it runs for few days, after that you will have enought great sample to calculate stats you are interested in.
-    - Columns: { Timestamp, Balance, Stake, Sum } belong to script and any data added to that rows could be overwritten
-    - For adding more stats just add functions to the free columns, starting from column "E"
+1. Open Google Drive
+2. Create new Google Sheet `New -> Google Sheets`
+3. `Add sheet` for each wallet you want to track, plus one sheet for the Logfile
+4. Call them, e.g., *Idena1*, *Idena2*, ..., and *Log*
+5. Open `Share -> Get link`
+    - e.g. *https://docs.google.com/spreadsheets/d/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/edit?usp=sharing*
+    - Save somewhere *XX...XX* from the link
+6. Open `Extensions -> Apps Scripts`
+7. Overwrite default *Code.gs* with *Code.gs* from the repository and change constants at the top
+8. Open `Deploy -> New Deployment -> Select type = Web App`
+    - Add Configuration:
+        - *Any description*
+        - *Execute As: Me*
+        - *Who has access: Only myself*
+9. Click `Deploy`
+10. Set function *initTriggers* at `Select function` to run and click `Run`
+11. Let it run for a few days, after that, you will have enough of a sample to calculate the statistics you are interested in.
+    - Columns: { *Timestamp*, *Balance*, *Stake*, *Sum* } belong to script and any data added to that rows could be overwritten
+    - In order to add more stats, just add functions to the free columns, starting from column "E"
 
----
+
+## Preview (in case of [Live Preview](https://docs.google.com/spreadsheets/d/1-CHWN_lpJlKQTKm3HGBRV4gitopFQx2H1InrW8sTSLo/edit?usp=sharing) link is dead)
+
+### Sheet - Wallet balance values
+<img src="https://user-images.githubusercontent.com/49691921/236667934-ee03a7d4-03f7-4155-8e38-0000727dc9d5.png"  width="600">
+
+### Chart - Wallet balance through time
+<img src="https://user-images.githubusercontent.com/49691921/236667936-964906ba-d96c-481b-9708-79d9deb3d06e.jpg"  width="600">
+
+### Chart - Wallet balance income through time
+<img src="https://user-images.githubusercontent.com/49691921/236667941-327b2ab6-b0cd-41ef-8a6b-b621dfdce814.png"  width="600">
+
+
+
+
+
